@@ -2,7 +2,7 @@
 set -Eeuo pipefail
 
 # Change this once before publishing your repository.
-REPO_SLUG="YOUR_GITHUB_USERNAME/unifi-new-device-monitor"
+REPO_SLUG="michaelkpeters/Unifi-Device-Monitor"
 BRANCH="main"
 INSTALL_URL="https://raw.githubusercontent.com/${REPO_SLUG}/${BRANCH}/install.sh"
 
