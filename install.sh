@@ -2,7 +2,7 @@
 set -Eeuo pipefail
 
 # Change this once before publishing your fork/repository.
-REPO_SLUG="YOUR_GITHUB_USERNAME/unifi-new-device-monitor"
+REPO_SLUG="michaelkpeters/Unifi-Device-Monitor"
 BRANCH="main"
 RAW_BASE="https://raw.githubusercontent.com/${REPO_SLUG}/${BRANCH}"
 APP_DIR="/opt/unifi-monitor"
