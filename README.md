@@ -288,3 +288,5 @@ MIT License. See `LICENSE`.
 ## Disclaimer
 
 This is a community project and is not affiliated with or endorsed by Ubiquiti Inc. UniFi is a trademark of its respective owner.
+
+This project was vibe-cobed via ChatGPT.
