@@ -50,33 +50,12 @@ Rows do not expire automatically. A known device can therefore disappear for mon
 
 Ubiquiti exposes version-specific local Network API documentation from **UniFi Network > Integrations**. The monitor uses the site and client endpoints exposed by that API.
 
-## Before publishing your fork
-
-There are two occurrences of this placeholder:
-
-```bash
-YOUR_GITHUB_USERNAME/unifi-new-device-monitor
-```
-
-Replace it in:
-
-- `install.sh`
-- `proxmox-install.sh`
-
-with your real GitHub username/repository.
-
-Example:
-
-```bash
-REPO_SLUG="michael/unifi-new-device-monitor"
-```
-
 ## Option 1: Proxmox one-line installation
 
 Run this **on the Proxmox VE host**:
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/unifi-new-device-monitor/main/proxmox-install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/michaelkpeters/Unifi-Device-Monitor/main/proxmox-install.sh)"
 ```
 
 The installer will:
@@ -104,7 +83,7 @@ Default LXC resources are intentionally small:
 Run this as root inside an existing Debian/Ubuntu-based LXC or VM:
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/unifi-new-device-monitor/main/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/michaelkpeters/Unifi-Device-Monitor/main/install.sh)"
 ```
 
 The installer prompts for:
