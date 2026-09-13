@@ -226,7 +226,7 @@ systemctl restart unifi-monitor
 Re-run the existing-LXC installer:
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/unifi-new-device-monitor/main/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/michaelkpeters/Unifi-Device-Monitor/main/install.sh)"
 ```
 
 When an existing configuration is detected, choose to keep it. Application files and systemd units will be refreshed while `devices.db` remains untouched.
