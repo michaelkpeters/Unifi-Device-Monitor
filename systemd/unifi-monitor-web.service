@@ -1,0 +1,14 @@
+[Unit]
+Description=UniFi Device Monitor Web UI
+After=network-online.target unifi-monitor.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/unifi-monitor/webui.py
+WorkingDirectory=/opt/unifi-monitor
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

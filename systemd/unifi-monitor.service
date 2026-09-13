@@ -1,0 +1,14 @@
+[Unit]
+Description=UniFi New Device Monitor
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/unifi-monitor/unifi_monitor.py
+WorkingDirectory=/opt/unifi-monitor
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
